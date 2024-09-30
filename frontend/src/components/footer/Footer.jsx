@@ -8,7 +8,7 @@ import { FaInstagram } from "react-icons/fa";
 
 import { FaLinkedinIn } from "react-icons/fa";
 
-function Footer() {
+function Footer() { 
   return (
     <div className='footermain'>
         <div className='footer_div1'>
