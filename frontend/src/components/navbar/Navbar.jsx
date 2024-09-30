@@ -1,7 +1,7 @@
 import React from 'react'
 import '../../styles/Navbar.css'
 import MenuButton from './MenuButton'
-import heyramlogo from '../../images/heyramlogo.png'
+import heyramlogo from '../../images/heyramlogo1.png'
 function Navbar() {
   return (
     <div className='navbar_main'>
@@ -13,7 +13,6 @@ function Navbar() {
 
         </div>
         <div className='navbar_div3'>
-         <MenuButton/>
         </div>
     </div>
   )
