@@ -1,0 +1,79 @@
+.ms_main{
+    width: 100%;
+    height: 100vh;
+    background-image: url('../images/cube.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.ms_div{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.401);
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+
+.ms_div1{
+    position: absolute;
+    bottom: 100px;
+    right: 100px;
+    color: rgb(255, 255, 255);
+}
+.ms_div2{
+    color: white;
+    font-size: 3.75rem;
+    font-weight: 300;
+    letter-spacing: 0.5rem;
+}
+
+/* ///////////////mainserviceslist/////////////// */
+.msl_main{
+    font-size: 0.9rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.msl_div1>div{
+    font-weight: 300;
+    letter-spacing: 1px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    margin: 10px 0;
+}
+.msl_div1{
+    display: flex;
+    justify-content: end;
+    flex-direction: column;
+    align-items: end;
+}
+.msl_div2{
+    height: 130px;
+    width: 2px;
+    background-color: white;
+}
+.ms_border{
+    width: 50px;
+    height: 1px;
+    background-color: white;
+}
+.msl_servicename:hover{
+    scale:110%;
+
+}
+.msl_servicename{
+    cursor: pointer;
+    transition: scale 0.3s ease-in-out;
+
+}
+.msl_container{
+
+}
