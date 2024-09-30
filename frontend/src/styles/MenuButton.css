@@ -1,24 +1,33 @@
 .hamburger {
     cursor: pointer;
+ 
+
+    
+  }
+  .menubtnmain{
+    z-index: 6;
+    position: fixed;
+    top: 12px;
+    right: 30px;
   }
   
   .hamburger input {
     display: none;
+    
   }
   
   .hamburger svg {
     /* The size of the SVG defines the overall size */
-    height: 2.5em;
+    height: 2em;
     /* Define the transition for transforming the SVG */
     transition: transform 600ms cubic-bezier(0.4, 0, 0.2, 1);
   }
   
   .line {
     fill: none;
-    stroke: rgb(255, 255, 255);
     stroke-linecap: square;
     stroke-linejoin: square;
-    stroke-width: 3;
+    stroke-width: 2;
     /* Define the transition for transforming the Stroke */
     transition:
       stroke-dasharray 600ms cubic-bezier(0.4, 0, 0.2, 1),
